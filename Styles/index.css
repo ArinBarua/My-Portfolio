@@ -32,6 +32,7 @@
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .section-title{
@@ -122,7 +123,7 @@ main section{
 .about{
     margin-top: 130px;
     border-radius: 10px;
-    padding: 130px 170px;
+    padding: 130px 150px;
     text-align: center;
 }
 
@@ -150,3 +151,111 @@ main section{
 .flex-container {
     display: flex;
   }
+
+  /* Resume Container */
+
+/* .resume-summary{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+
+.resume-container{
+    display: flex;
+}
+
+/* .section-title{
+    text-align: center;
+} */
+
+.resume-container{
+    gap: 20px;
+}
+
+.experience-1, .experience-2{
+    border-bottom: 1px solid rgba(209, 209, 209, 1);
+}
+
+.experience-resume-title, .experience-title{
+    color: rgba(71, 71, 71, 1);
+}
+
+.experience-sub-title, .experience-description{
+    color: rgba(117, 117, 117, 1);
+}
+
+/* Footer Style */
+
+footer{
+    display: flex;
+    padding: 100px 150px;
+    gap: 60px;
+}
+
+.footer-img-1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-colum{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"] {
+    display: block;
+    height: 64px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#form-message{
+    display: block;
+    height: 64px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-family: "Open Sans", serif;
+    color: rgba(117, 117, 117, 1);
+}
+
+#submit-btn{
+    background-color: #FD6E0A;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-top: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+    /* /* margin-top: 24px;
+    display: block; */
+
+/* .footer-section{
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.footer-div{
+    display: flex;
+    gap: 50px;
+    padding: 80px;
+}
+
+.connect-para{
+    padding-right: 50%;
+}
+#form-name{
+    width: 100%;
+} */
